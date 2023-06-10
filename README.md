@@ -14,17 +14,24 @@ This project uses the AUTOMATIC1111 Stable Diffusion GUI[3] and switches between
 
 ## Results
 I started with a simple website QR generator, followed by a QR generator with parametric shifts[6].
-![QR code produced using a parametric shift](/images/QR5.jpg "Simple parametric QR")
+
+![QR code produced using a parametric shift](/images/QR5.png "Simple parametric QR")
 
 Since I wanted to incorporate more complex images, I looked into possibilities using Stable Diffusion and ControlNet. My first tries were not that successful:
-![Would pass as abstract art, but no QR](/images/noQR1.png "Would pass as abstract art, but no QR")
-![My first tries in creating QR conditioned images](/images/noQR2.png "My first tries in creating QR conditioned images")
+
+![noQR1](/images/noQR1.png "Would pass as abstract art, but no QR")
+
+![noQR2](/images/noQR2.png "My first tries in creating QR conditioned images")
 
 But once I started getting the hang of the text prompts as well as the required parameters by the models being used, it was easy:
-![Mech QR v1](/images/QR1.png "Mech QR v1")
-![Mech QR v2](/images/QR2.png "Mech QR v2")
-![House QR](/images/QR3.png "House QR")
-![Rainbow Lady QR](/images/QR4.png "Rainbow Lady QR")
+
+![Mech QR v1](/images/QR1.png "Cool mech")
+
+![Mech QR v2](/images/QR2.png "Recreating the first one")
+
+![House QR](/images/QR3.png "This house looks like a puzzle")
+
+![Rainbow Lady QR](/images/QR4.png "Humans seem harder to correctly generate")
 
 So far I’m pretty satisfied with the results, and planning to use the images as a type of “end credits” slide for my projects/presentations.
 
