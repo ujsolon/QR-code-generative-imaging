@@ -1,5 +1,6 @@
-# QR-code-generative-imaging
-For this project, the Stable Diffusion neural network model was used to generate images conditioned on QR code inputs via ControlNet.
+# QR Code Generative Imaging: Exploring ControlNet with Stable Diffusion
+
+**QR Code Generative Imaging** explores the innovative combination of functional QR codes with artistic image generation using the Stable Diffusion neural network model and ControlNet. This project aims to create visually compelling images conditioned on QR code inputs, balancing aesthetics with functionality. By employing the AUTOMATIC1111 Stable Diffusion GUI and leveraging various checkpoints like Dreamshaper and RevAnimated, diverse styles and outputs were tested. Despite initial challenges, including significant processing times, the project successfully generated scannable QR codes embedded within intricate designs. These outputs have potential applications in enhancing the visual appeal of digital and physical presentations, adding a decorative element while maintaining QR code functionality.  
 
 ## Intro
 
@@ -35,9 +36,10 @@ But once I started getting the hang of the text prompts as well as the required 
 
 So far I’m pretty satisfied with the results, and planning to use the images as a type of “end credits” slide for my projects/presentations.
 
+## Challenges and Future Work
 One big problem for me though, is the processing time. It took my computer about 15 or so minutes to generate some of the QR images, and I believe my computer's specs is good enough to avoid that issue. Maybe I'll try changing the settings to avoid this runtime issue.
 
-### Contact me
+## Contact me
 <ul>
 <li> Let me know if the QR codes work or not: https://forms.gle/4WY7WdFRbqwKDmon8
 <li> Github: https://github.com/ujsolon/QR-code-generative-imaging
